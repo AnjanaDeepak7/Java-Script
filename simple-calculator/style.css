@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 1rem;
+    margin: 50px;
+    text-align: center;
+}
+p{
+    text-decoration: underline;
+    font-size: 2em;
+    margin-top: 10px;
+}
+button{
+    font-weight: bold;
+    padding: 1rem;
+}
+.element{
+    display: flex;
+    justify-content: center;
+}
+#element{
+    margin: 20px 10px;
+}
