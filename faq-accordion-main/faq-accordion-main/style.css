@@ -1,0 +1,69 @@
+@import url(https://fonts.google.com/specimen/Work+Sans);
+
+:root {
+  --White: hsl(0, 0%, 100%);
+  --Light-pink: hsl(275, 100%, 97%);
+  --Grayish-purple: hsl(292, 16%, 49%);
+  --Dark-purple: hsl(292, 42%, 14%);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: url(./assets/images/background-pattern-desktop.svg) repeat-x,
+    var(--Light-pink);
+  font-family: "Work Sans", sans-serif;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.body-container {
+  background: white;
+  width: 40%;
+  height: auto;
+  border-radius: 20px;
+  padding: 2rem;
+}
+.heading-container {
+  margin: 1rem;
+  display: flex;
+}
+h1 {
+  margin-left: 0.5rem;
+  font-size: 3rem;
+  font-weight: bolder;
+}
+.main-container {
+  margin: 1rem;
+}
+.article-container {
+  margin: 1rem;
+}
+.question-container {
+  display: flex;
+  justify-content: space-between;
+}
+.question {
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+.plus-icon,
+.minus-icon {
+  background: none;
+  border: none;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  display: none;
+}
+.answer-container {
+  display: none;
+}
+.show {
+  display: inline;
+}
